@@ -1,57 +1,44 @@
-# ♟️ Chess.com Cheat Script (Tampermonkey Userscript)
+# ♟️ ChessCheat
 
-This is a Tampermonkey userscript designed to enhance your experience on [chess.com](https://www.chess.com) with features like automatic move execution, opponent prediction, and a smooth, themeable UI.
-
-> ⚠️ This project is for **personal use only**. Use at your own risk. Using cheats may violate Chess.com's Terms of Service and result in penalties or bans.
+![JavaScript](https://img.shields.io/badge/Script-JavaScript-yellow?logo=javascript)
+![Platform](https://img.shields.io/badge/Platform-Chrome%20%7C%20Tampermonkey-blue?logo=google-chrome)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![UI](https://img.shields.io/badge/UI-Animated%20%7C%20Themed-ff69b4)
 
 ---
 
-## 🚀 Features
+## ⚠️ WARNING
 
-- 🔁 **Auto-Move** – Automatically makes the best moves for you.
-- 🔮 **Opponent Move Prediction** – Predicts what your opponent might play next.
-- 🧠 **Loss Probability Estimator** – Shows real-time estimates of your chances of losing.
-- 🎨 **Clean UI** – Built with CSS, offering multiple themes and a modern interface.
-- 🛠️ **Settings Bar** – Easily toggle and configure script behavior.
-- 🎭 **UI Toggle with Insert Key** – Press the `Insert` key to toggle the UI with a smooth animation.
+**This script is for educational and personal use only. Use on platforms like Chess.com may violate their Terms of Service and result in account penalties.**
+
+---
+
+## 🗂️ Features
+
+| Feature             | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| 🔁 Auto Move         | Automatically makes moves for you in real time                              |
+| 🔄 Auto Run          | Continuously runs prediction and analysis engine                            |
+| 🧠 Smart Depth       | Press any key to adjust the move calculation depth                          |
+| 🎨 CSS Themes        | Multiple visual themes with dynamic CSS that modifies chess.com             |
+| 🛠️ Settings Menu     | Simple menu with toggle buttons for Auto Move and Auto Run                  |
+| 🎭 Insert Key Toggle | Press `Insert` to hide or show the UI with a smooth disappearing animation   |
 
 ---
 
 ## 🧩 Requirements
 
-- **Google Chrome**
-- **[Tampermonkey Extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)**
+- Google Chrome  
+- [Tampermonkey Extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
 ---
 
-## 📦 Installation
+## 🚀 Installation
 
-1. **Install Tampermonkey**:  
-   👉 [Click here to install](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+1. **Install Tampermonkey**  
+   👉 [Click here to install Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-2. **Install the Script**:
-   - Open Tampermonkey and click `Create a new script`.
-   - Replace the default template with the code from this repo (`chesscheat.user.js`).
-   - Save (`File > Save` or `Ctrl+S`).
-
-3. **Go to [chess.com](https://www.chess.com)** and the script will auto-activate.
-
----
-
-## 🧠 Usage Notes
-
-- Simply navigate to a game on chess.com — the script activates automatically.
-- Use the `Insert` key to show/hide the UI with an animation.
-- No further input is needed — the script handles gameplay and predictions automatically.
-
----
-
-## 📌 Disclaimer
-
-This tool is provided **as-is** for personal/educational use. We do not condone cheating in competitive environments. Use responsibly and understand the risks, including potential account suspension.
-
----
-
-## 📄 License
-
-MIT License. See [LICENSE](./LICENSE) for full details.
+2. **Add the Script**
+   - Open Tampermonkey ➜ Click **Create a new script**
+   - Delete everything and paste the code from `chesscheat.user.js`
+   - Save the script (Ctrl+S
